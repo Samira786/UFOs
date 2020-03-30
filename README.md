@@ -20,7 +20,7 @@ Some recommedations for future enhancements include:
 ## Website
 
 
-The website (index.html) looks like the following:<br />
+The website (index.html) looks like the following:
 
-!(https://github.com/Samira786/UFOs/blob/master/static/images/Fullsite.png)
+![description](https://github.com/Samira786/UFOs/blob/master/static/images/Fullsite.png)
 
