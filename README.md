@@ -7,7 +7,7 @@ This dynamic webpage was created using Javascript, CSS, and HTML to filter data 
 The following files were built using Visual Studio Code:<br />
 - Index.html - The HTML file uses bootstrap to show filters with Date/Time, City, State, Country and Shape.<br />
 - app.js - The Javascript file includes functions that builds a table, filters values, and create a view based on user interaction.<br />
-- style.css - The CSS file formats the website.<br />cThere were 369,711 votes casted in the election
+- style.css - The CSS file formats the website.<br />
 ## Recommendations
 <br />
 Some recommedations for future enhancements include:
@@ -19,10 +19,8 @@ Some recommedations for future enhancements include:
 
 ## Website
 
-<br />
-The website (index.html) looks like the following:<br />
-<br />
-![picture](https://github.com/Samira786/UFOs/blob/master/static/images/Fullsite.png)
-<br />
 
+The website (index.html) looks like the following:<br />
+
+!(https://github.com/Samira786/UFOs/blob/master/static/images/Fullsite.png)
 
