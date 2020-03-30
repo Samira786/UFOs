@@ -2,7 +2,7 @@
 
 ### Project
 
-This dynamic webpage was created using Javascript, CSS, and HTML to filter data about UFO sightings.
+This dynamic webpage was created using Javascript, CSS, and HTML to filter data about UFO sightings.<br />
 <br />
 The following files were built using Visual Studio Code:<br />
 - Index.html - The HTML file uses bootstrap to show filters with Date/Time, City, State, Country and Shape.<br />
@@ -22,7 +22,7 @@ Some recommedations for future enhancements include:
 <br />
 The website (index.html) looks like the following:<br />
 <br />
-![index](https://github.com/Samira786/UFOs/blob/master/static/images/Fullsite.png)
+![picture](https://github.com/Samira786/UFOs/blob/master/static/images/Fullsite.png)
 <br />
 
 
