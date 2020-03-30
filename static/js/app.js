@@ -21,3 +21,39 @@ function buildTable(data) {
       );
     });
   }
+
+  
+  function updateFilters(){
+    const filters = {
+        datetime:d3.select("#datetime").property("value"),
+        city:d3.select("#city").property("value"),
+        state:d3.select("#state").property("value"),
+        country:d3.select("#country").property("value"),
+        shape:d3.select("#shape").property("value")
+    };
+    
+    // filterTable()
+    filterTable(filters)
+}
+  
+function filterTable(filters) {
+  let filteredData = tableData;
+  // Check to see if a date was entered and filter the
+  // data using that date.
+  Object.entries (filters).forEach(([key,val])=> {
+      if (val) {
+          filteredData = filteredData.filter(row => row[key] === val);
+      } 
+  })
+  // Rebuild the table using the filtered data
+  // @NOTE: If no date was entered, then filteredData will
+  // just be the original tableData.
+  buildTable(filteredData);
+}
+
+  // Attach an event to listen for the form button
+  d3.selectAll("#filter-btn").on("click", updateFilters);
+  d3.selectAll("input").on("change", updateFilters);
+  // Build the table when the page loads
+  buildTable(tableData);
+
