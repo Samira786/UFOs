@@ -23,6 +23,6 @@ Store data in a NoSQL database such as MongoDB<br />
 <br />
 The website (index.html) looks like the following:<br />
 <br />
-[index]!( )<br />
+[index]!(https://github.com/Samira786/UFOs/blob/master/static/images/Fullsite.png)<br />
 
 
